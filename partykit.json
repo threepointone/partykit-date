@@ -1,6 +1,10 @@
 {
   "$schema": "https://www.partykit.io/schema.json",
-  "name": "test",
+  "name": "test-roundtrip-delta",
   "main": "src/server.ts",
-  "compatibilityDate": "2024-08-28"
+  "compatibilityDate": "2024-08-28",
+  "serve": {
+    "path": "public",
+    "build": "./src/client.tsx"
+  }
 }
